@@ -1,0 +1,38 @@
+{
+  "category": "idea_generation",
+  "count": 4,
+  "prompts": [
+    {
+      "id": "ideas_001",
+      "title": "Trend-Jacking Content Ideas",
+      "category": "idea_generation",
+      "use_case": "Find viral content angles from current trends",
+      "prompt": "Generate 5 government contracting content ideas related to [TREND]. For each: (1) Content angle, (2) Platform best suited, (3) Why it matters to contractors, (4) Engagement hook, (5) How to make it viral.",
+      "output_format": "Ideas list with execution tips"
+    },
+    {
+      "id": "ideas_002",
+      "title": "Seasonal Campaign Ideas",
+      "category": "idea_generation",
+      "use_case": "Plan content around seasonal opportunities",
+      "prompt": "Generate 4 campaign ideas for [SEASON/MONTH]. For contractors in [INDUSTRY]. Include: (1) Campaign theme, (2) 5 content pieces, (3) Timeline, (4) Expected reach, (5) Success metrics.",
+      "output_format": "Campaign briefs with seasonal hook"
+    },
+    {
+      "id": "ideas_003",
+      "title": "Question-Based Content Ideas",
+      "category": "idea_generation",
+      "use_case": "Create content around contractor pain points",
+      "prompt": "Generate 10 content ideas answering questions government contractors ask. Pain points: [PAIN_POINTS]. For each: (1) Question, (2) Answer in 1 sentence, (3) Content format, (4) Audience size, (5) Evergreen or timely?",
+      "output_format": "Question library with content recommendations"
+    },
+    {
+      "id": "ideas_004",
+      "title": "Series Content Ideas",
+      "category": "idea_generation",
+      "use_case": "Create recurring content series for consistency",
+      "prompt": "Design 3 recurring content series for [COMPANY]. For each: (1) Series name, (2) Publishing schedule, (3) 5 episode ideas, (4) Format (thread/article/post), (5) Engagement strategy.",
+      "output_format": "Content series roadmap"
+    }
+  ]
+}

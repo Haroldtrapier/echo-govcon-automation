@@ -1,0 +1,85 @@
+{
+  "category": "analysis",
+  "count": 6,
+  "prompts": [
+    {
+      "id": "analysis_001",
+      "title": "Post Performance Analysis",
+      "category": "analysis",
+      "use_case": "Analyze a single social media post's performance",
+      "prompt": "Analyze this social media post performance: [POST_CONTENT]. Metrics: [VIEWS/LIKES/COMMENTS/SHARES]. What made it successful or unsuccessful? Provide 3 specific elements that drove engagement and 3 improvements.",
+      "key_metrics": [
+        "engagement_rate",
+        "view_to_engagement_ratio",
+        "share_count"
+      ],
+      "output_format": "JSON with success factors and improvement suggestions"
+    },
+    {
+      "id": "analysis_002",
+      "title": "Monthly Performance Report",
+      "category": "analysis",
+      "use_case": "Summarize 30 days of content performance",
+      "prompt": "Create a monthly performance report from these posts: [DATA]. Calculate: (1) Average engagement rate, (2) Top 3 performing posts and why, (3) Worst performing and lessons, (4) Engagement trends, (5) Audience growth patterns.",
+      "key_metrics": [
+        "average_engagement",
+        "top_posts",
+        "growth_rate",
+        "trends"
+      ],
+      "output_format": "Executive summary with charts-ready data"
+    },
+    {
+      "id": "analysis_003",
+      "title": "Competitor Analysis",
+      "category": "analysis",
+      "use_case": "Analyze competitor content strategy",
+      "prompt": "Analyze competitor's content strategy: [COMPETITOR_POSTS]. What are their top 5 performing post types? How do they engage? What topics dominate? What gaps exist? How can we differentiate?",
+      "key_metrics": [
+        "competitor_reach",
+        "engagement_patterns",
+        "content_gaps"
+      ],
+      "output_format": "Competitive intelligence brief"
+    },
+    {
+      "id": "analysis_004",
+      "title": "Audience Sentiment Analysis",
+      "category": "analysis",
+      "use_case": "Understand audience reaction and sentiment",
+      "prompt": "Analyze audience sentiment from these comments: [COMMENTS]. What are the top 3 sentiments? What questions are people asking? What objections come up? What do they want more of?",
+      "key_metrics": [
+        "sentiment_score",
+        "common_themes",
+        "questions"
+      ],
+      "output_format": "Sentiment breakdown with themes"
+    },
+    {
+      "id": "analysis_005",
+      "title": "Platform Performance Comparison",
+      "category": "analysis",
+      "use_case": "Compare performance across LinkedIn, Twitter, Email",
+      "prompt": "Compare identical content across platforms: [LINKEDIN_METRICS], [TWITTER_METRICS], [EMAIL_METRICS]. Which platform works best? Why? How should we optimize for each?",
+      "key_metrics": [
+        "platform_efficiency",
+        "audience_preference",
+        "engagement_rate"
+      ],
+      "output_format": "Platform-specific recommendations"
+    },
+    {
+      "id": "analysis_006",
+      "title": "Content ROI Calculator",
+      "category": "analysis",
+      "use_case": "Calculate actual ROI from content to leads/revenue",
+      "prompt": "Calculate content ROI: [POSTS_DATA], [LEADS_FROM_POSTS], [REVENUE_FROM_LEADS]. How many views per lead? Cost per lead? Revenue per 1000 views? What content type converts best?",
+      "key_metrics": [
+        "cost_per_lead",
+        "conversion_rate",
+        "roi"
+      ],
+      "output_format": "ROI metrics and optimization recommendations"
+    }
+  ]
+}

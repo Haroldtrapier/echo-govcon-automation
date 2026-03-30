@@ -1,0 +1,310 @@
+{
+  "version": "2.0.0",
+  "total_prompts": 26,
+  "categories": {
+    "content_creation": 8,
+    "analysis": 6,
+    "strategy": 5,
+    "idea_generation": 4,
+    "optimization": 3
+  },
+  "prompts": {
+    "content_creation": [
+      {
+        "id": "content_001",
+        "title": "LinkedIn Post: SDVOSB Advantage",
+        "category": "content_creation",
+        "platform": "linkedin",
+        "character_limit": 3000,
+        "prompt": "Create a compelling LinkedIn post explaining the advantages of SDVOSB certification for government contractors. Include: (1) Direct access to $25B+ in federal set-aside contracts, (2) Competitive advantages in federal bidding, (3) Real business growth impact. Write in professional but engaging tone. Include relevant hashtags.",
+        "use_cases": [
+          "Business development",
+          "Lead generation",
+          "Thought leadership"
+        ],
+        "example_output": "\ud83d\udce2 Did you know? \ud83c\udfaf SDVOSB certification unlocks direct access to $25B+ in federal set-asides. Here's what that means for your bottom line..."
+      },
+      {
+        "id": "content_002",
+        "title": "Twitter Thread: GovCon Tips",
+        "category": "content_creation",
+        "platform": "twitter",
+        "character_limit": "280 per tweet",
+        "prompt": "Create a 5-tweet thread with actionable government contracting tips. Each tweet should: (1) Start with a number or emoji, (2) Deliver one clear tip, (3) Be under 280 characters, (4) End with a hook to read the next tweet.",
+        "use_cases": [
+          "Education",
+          "Audience engagement",
+          "Viral potential"
+        ],
+        "example_output": "\ud83e\uddf5 5 GovCon Tactics Government Contractors Don't Know About:\n\n1\ufe0f\u20e3 The 8(a) Program..."
+      },
+      {
+        "id": "content_003",
+        "title": "Email Newsletter: Monthly Market Update",
+        "category": "content_creation",
+        "platform": "email",
+        "character_limit": 2000,
+        "prompt": "Write an engaging monthly email newsletter for government contractors. Include: (1) Top 3 market opportunities this month, (2) Upcoming contract deadlines, (3) Quick tip section, (4) Call-to-action. Keep it scannable with bullet points.",
+        "use_cases": [
+          "Lead nurturing",
+          "Thought leadership",
+          "Community building"
+        ],
+        "example_output": "Subject: 3 New GovCon Opportunities This Month + Market Trends\n\nHi [Name],..."
+      },
+      {
+        "id": "content_004",
+        "title": "LinkedIn Article: Deep Dive Guide",
+        "category": "content_creation",
+        "platform": "linkedin",
+        "character_limit": 8000,
+        "prompt": "Write a comprehensive LinkedIn Article (1500+ words) about a government contracting topic. Include: (1) Current market context, (2) Step-by-step guidance, (3) Real examples, (4) Resources, (5) Action items. Make it authoritative and practical.",
+        "use_cases": [
+          "SEO",
+          "Thought leadership",
+          "Lead generation"
+        ],
+        "example_output": "The Complete Guide to CMMC Compliance: What Government Contractors Need to Know in 2026..."
+      },
+      {
+        "id": "content_005",
+        "title": "Case Study: Success Story",
+        "category": "content_creation",
+        "platform": "linkedin",
+        "character_limit": 4000,
+        "prompt": "Write a compelling case study showing how a contractor won a federal contract. Include: (1) Challenge faced, (2) Your solution, (3) Results with numbers, (4) Key lessons, (5) Specific tactic that worked.",
+        "use_cases": [
+          "Social proof",
+          "Lead generation",
+          "Differentiation"
+        ],
+        "example_output": "How We Grew from 0-$2M in Federal Contracts in 12 Months: What We Learned..."
+      },
+      {
+        "id": "content_006",
+        "title": "Industry News Commentary",
+        "category": "content_creation",
+        "platform": "linkedin",
+        "character_limit": 1500,
+        "prompt": "Write a post commenting on recent government contracting news. Include: (1) What happened, (2) Why it matters, (3) Impact on contractors, (4) How to prepare/capitalize. Keep opinion balanced but clear.",
+        "use_cases": [
+          "Timeliness",
+          "Thought leadership",
+          "Engagement"
+        ],
+        "example_output": "The new CMMC 2.0 requirements just dropped, and here's what contractors need to know..."
+      },
+      {
+        "id": "content_007",
+        "title": "How-To Content: Quick Tip",
+        "category": "content_creation",
+        "platform": "twitter",
+        "character_limit": 280,
+        "prompt": "Write a single, actionable 'how-to' post on a government contracting process. Format: 'How to [specific task]' + one clear step + benefit. Make it shareable and practical.",
+        "use_cases": [
+          "Education",
+          "Viral potential",
+          "Quick engagement"
+        ],
+        "example_output": "How to respond to a GSA Schedule RFQ in 3 hours: Focus on these 3 pages of the IFB first..."
+      },
+      {
+        "id": "content_008",
+        "title": "Event Announcement: Webinar/Roundtable",
+        "category": "content_creation",
+        "platform": "linkedin",
+        "character_limit": 2000,
+        "prompt": "Write an announcement for a webinar or roundtable discussion. Include: (1) Catchy hook, (2) Problem you're solving, (3) Speaker credentials, (4) Key topics covered, (5) Clear registration link or CTA.",
+        "use_cases": [
+          "Lead generation",
+          "Community building",
+          "Authority"
+        ],
+        "example_output": "LIVE WEBINAR: 5 Government Contractors Share How They Won $5M+ in Federal Contracts..."
+      }
+    ],
+    "analysis": [
+      {
+        "id": "analysis_001",
+        "title": "Post Performance Analysis",
+        "category": "analysis",
+        "use_case": "Analyze a single social media post's performance",
+        "prompt": "Analyze this social media post performance: [POST_CONTENT]. Metrics: [VIEWS/LIKES/COMMENTS/SHARES]. What made it successful or unsuccessful? Provide 3 specific elements that drove engagement and 3 improvements.",
+        "key_metrics": [
+          "engagement_rate",
+          "view_to_engagement_ratio",
+          "share_count"
+        ],
+        "output_format": "JSON with success factors and improvement suggestions"
+      },
+      {
+        "id": "analysis_002",
+        "title": "Monthly Performance Report",
+        "category": "analysis",
+        "use_case": "Summarize 30 days of content performance",
+        "prompt": "Create a monthly performance report from these posts: [DATA]. Calculate: (1) Average engagement rate, (2) Top 3 performing posts and why, (3) Worst performing and lessons, (4) Engagement trends, (5) Audience growth patterns.",
+        "key_metrics": [
+          "average_engagement",
+          "top_posts",
+          "growth_rate",
+          "trends"
+        ],
+        "output_format": "Executive summary with charts-ready data"
+      },
+      {
+        "id": "analysis_003",
+        "title": "Competitor Analysis",
+        "category": "analysis",
+        "use_case": "Analyze competitor content strategy",
+        "prompt": "Analyze competitor's content strategy: [COMPETITOR_POSTS]. What are their top 5 performing post types? How do they engage? What topics dominate? What gaps exist? How can we differentiate?",
+        "key_metrics": [
+          "competitor_reach",
+          "engagement_patterns",
+          "content_gaps"
+        ],
+        "output_format": "Competitive intelligence brief"
+      },
+      {
+        "id": "analysis_004",
+        "title": "Audience Sentiment Analysis",
+        "category": "analysis",
+        "use_case": "Understand audience reaction and sentiment",
+        "prompt": "Analyze audience sentiment from these comments: [COMMENTS]. What are the top 3 sentiments? What questions are people asking? What objections come up? What do they want more of?",
+        "key_metrics": [
+          "sentiment_score",
+          "common_themes",
+          "questions"
+        ],
+        "output_format": "Sentiment breakdown with themes"
+      },
+      {
+        "id": "analysis_005",
+        "title": "Platform Performance Comparison",
+        "category": "analysis",
+        "use_case": "Compare performance across LinkedIn, Twitter, Email",
+        "prompt": "Compare identical content across platforms: [LINKEDIN_METRICS], [TWITTER_METRICS], [EMAIL_METRICS]. Which platform works best? Why? How should we optimize for each?",
+        "key_metrics": [
+          "platform_efficiency",
+          "audience_preference",
+          "engagement_rate"
+        ],
+        "output_format": "Platform-specific recommendations"
+      },
+      {
+        "id": "analysis_006",
+        "title": "Content ROI Calculator",
+        "category": "analysis",
+        "use_case": "Calculate actual ROI from content to leads/revenue",
+        "prompt": "Calculate content ROI: [POSTS_DATA], [LEADS_FROM_POSTS], [REVENUE_FROM_LEADS]. How many views per lead? Cost per lead? Revenue per 1000 views? What content type converts best?",
+        "key_metrics": [
+          "cost_per_lead",
+          "conversion_rate",
+          "roi"
+        ],
+        "output_format": "ROI metrics and optimization recommendations"
+      }
+    ],
+    "strategy": [
+      {
+        "id": "strategy_001",
+        "title": "Quarterly Strategy Plan",
+        "category": "strategy",
+        "use_case": "Plan content strategy for next quarter",
+        "prompt": "Create a Q[X] content strategy for [COMPANY]. Goals: [GOALS]. Audience: [AUDIENCE]. Current strengths: [STRENGTHS]. Recommend: (1) 3 content pillars, (2) Posting frequency per platform, (3) Content mix (%), (4) Key campaigns, (5) Success metrics.",
+        "output_format": "Strategic plan with monthly breakdown"
+      },
+      {
+        "id": "strategy_002",
+        "title": "Niche Market Positioning",
+        "category": "strategy",
+        "use_case": "Position company in specific market niche",
+        "prompt": "Help position [COMPANY] in [NICHE] market. Current position: [POSITION]. Target audience: [AUDIENCE]. Competitors: [COMPETITORS]. Recommend: (1) Unique angle, (2) Message framework, (3) Content topics that own this niche, (4) Differentiation tactics.",
+        "output_format": "Positioning strategy with messaging framework"
+      },
+      {
+        "id": "strategy_003",
+        "title": "Customer Acquisition Funnel",
+        "category": "strategy",
+        "use_case": "Build awareness-to-customer journey",
+        "prompt": "Design customer acquisition funnel for [COMPANY]. Stage: [AWARENESS/CONSIDERATION/DECISION]. Recommend: (1) Content strategy per stage, (2) Platform focus, (3) CTAs, (4) Nurture sequence, (5) Conversion tactics.",
+        "output_format": "Funnel stages with content recommendations"
+      },
+      {
+        "id": "strategy_004",
+        "title": "Crisis Communication Plan",
+        "category": "strategy",
+        "use_case": "Prepare for negative publicity or crisis",
+        "prompt": "Create crisis communication plan for [COMPANY] in [SCENARIO]. Prepare: (1) Holding statement, (2) Key messages, (3) Q&A responses, (4) Post schedule adjustment, (5) Community engagement approach.",
+        "output_format": "Crisis response playbook"
+      },
+      {
+        "id": "strategy_005",
+        "title": "Partnership & Collaboration Strategy",
+        "category": "strategy",
+        "use_case": "Expand reach through strategic partnerships",
+        "prompt": "Identify partnership opportunities for [COMPANY]. Target audience: [AUDIENCE]. Recommend: (1) 5 ideal partnership types, (2) How to approach, (3) Content collaboration ideas, (4) Cross-promotion tactics, (5) Measurement approach.",
+        "output_format": "Partnership strategy with prospect list"
+      }
+    ],
+    "idea_generation": [
+      {
+        "id": "ideas_001",
+        "title": "Trend-Jacking Content Ideas",
+        "category": "idea_generation",
+        "use_case": "Find viral content angles from current trends",
+        "prompt": "Generate 5 government contracting content ideas related to [TREND]. For each: (1) Content angle, (2) Platform best suited, (3) Why it matters to contractors, (4) Engagement hook, (5) How to make it viral.",
+        "output_format": "Ideas list with execution tips"
+      },
+      {
+        "id": "ideas_002",
+        "title": "Seasonal Campaign Ideas",
+        "category": "idea_generation",
+        "use_case": "Plan content around seasonal opportunities",
+        "prompt": "Generate 4 campaign ideas for [SEASON/MONTH]. For contractors in [INDUSTRY]. Include: (1) Campaign theme, (2) 5 content pieces, (3) Timeline, (4) Expected reach, (5) Success metrics.",
+        "output_format": "Campaign briefs with seasonal hook"
+      },
+      {
+        "id": "ideas_003",
+        "title": "Question-Based Content Ideas",
+        "category": "idea_generation",
+        "use_case": "Create content around contractor pain points",
+        "prompt": "Generate 10 content ideas answering questions government contractors ask. Pain points: [PAIN_POINTS]. For each: (1) Question, (2) Answer in 1 sentence, (3) Content format, (4) Audience size, (5) Evergreen or timely?",
+        "output_format": "Question library with content recommendations"
+      },
+      {
+        "id": "ideas_004",
+        "title": "Series Content Ideas",
+        "category": "idea_generation",
+        "use_case": "Create recurring content series for consistency",
+        "prompt": "Design 3 recurring content series for [COMPANY]. For each: (1) Series name, (2) Publishing schedule, (3) 5 episode ideas, (4) Format (thread/article/post), (5) Engagement strategy.",
+        "output_format": "Content series roadmap"
+      }
+    ],
+    "optimization": [
+      {
+        "id": "optim_001",
+        "title": "Headline & Copy Testing",
+        "category": "optimization",
+        "use_case": "A/B test headlines and copy",
+        "prompt": "Generate 3 alternative headlines/copy for [ORIGINAL_POST]. For each: (1) Why it's different, (2) What audience segment prefers it, (3) Predicted engagement lift, (4) Test plan, (5) Success criteria.",
+        "output_format": "A/B test recommendations"
+      },
+      {
+        "id": "optim_002",
+        "title": "Best Time to Post Analysis",
+        "category": "optimization",
+        "use_case": "Optimize posting schedule",
+        "prompt": "Analyze optimal posting times for [COMPANY]. Data: [HISTORICAL_POSTS]. Recommend: (1) Best day/time per platform, (2) Frequency, (3) Content type per time, (4) Seasonal adjustments, (5) Why these times work.",
+        "output_format": "Posting calendar with rationale"
+      },
+      {
+        "id": "optim_003",
+        "title": "Platform-Specific Optimization",
+        "category": "optimization",
+        "use_case": "Tailor content for platform-specific algorithms",
+        "prompt": "Optimize [POST] for [PLATFORM] algorithm. Current: [CURRENT_PERFORMANCE]. Recommend: (1) Format change, (2) Hashtag strategy, (3) CTA adjustment, (4) Media recommendations, (5) Engagement tactics.",
+        "output_format": "Platform-specific optimization guide"
+      }
+    ]
+  }
+}

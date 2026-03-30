@@ -1,0 +1,102 @@
+{
+  "report_period": "March 2026",
+  "generated_date": "2026-03-31",
+  "summary": {
+    "total_posts": 7,
+    "total_reach": 8750,
+    "total_engagement": 312,
+    "average_engagement_rate": 3.56,
+    "total_followers_gained": 45
+  },
+  "platform_breakdown": {
+    "linkedin": {
+      "posts": 5,
+      "total_views": 6200,
+      "total_engagement": 280,
+      "avg_engagement_rate": 4.52,
+      "top_post_views": 1250
+    },
+    "twitter": {
+      "posts": 2,
+      "total_views": 2550,
+      "total_engagement": 32,
+      "avg_engagement_rate": 1.25,
+      "top_post_engagement": 20
+    }
+  },
+  "top_performing_posts": [
+    {
+      "rank": 1,
+      "post_id": "post_001",
+      "title": "SDVOSB Advantages",
+      "platform": "linkedin",
+      "views": 1250,
+      "engagement": 68,
+      "engagement_rate": 5.44,
+      "key_success_factor": "Specific dollar amount + clear benefit"
+    },
+    {
+      "rank": 2,
+      "post_id": "post_003",
+      "title": "8(a) Program Deep Dive",
+      "platform": "linkedin",
+      "views": 1050,
+      "engagement": 58,
+      "engagement_rate": 5.52,
+      "key_success_factor": "Educational + step-by-step approach"
+    }
+  ],
+  "content_analysis": {
+    "best_content_type": "Educational posts with specific numbers",
+    "best_posting_time": "Tuesday 9 AM EST",
+    "best_hashtag": "#GovernmentContracting",
+    "engagement_by_topic": {
+      "SDVOSB": 4.8,
+      "8a_Program": 4.2,
+      "CMMC": 3.1,
+      "GSA_Schedule": 2.8
+    }
+  },
+  "audience_insights": {
+    "demographics": "Government contractors, business owners, veterans",
+    "top_engagement_driver": "Specific numbers and actionable tips",
+    "common_questions": [
+      "How long does certification take?",
+      "What's the minimum revenue requirement?",
+      "Can I combine programs?"
+    ],
+    "sentiment": "Positive - high interest in certification programs"
+  },
+  "recommendations": {
+    "for_april": [
+      "Focus more on CMMC 2.0 content - high search interest",
+      "Create a series on 8(a) Program FAQs",
+      "Post more on Wednesday-Thursday when engagement peaks",
+      "Increase use of personal stories/case studies"
+    ],
+    "strategic_changes": [
+      "Increase posting frequency to 2x per week",
+      "Create one long-form article per week",
+      "Start a weekly educational thread on Twitter"
+    ]
+  },
+  "roi_metrics": {
+    "leads_generated": 12,
+    "leads_from_linkedin": 10,
+    "leads_from_twitter": 2,
+    "cost_per_lead": 0,
+    "estimated_deal_value": 240000,
+    "deal_to_lead_value_ratio": 20000
+  },
+  "next_month_goals": {
+    "reach_target": 12500,
+    "engagement_target": 450,
+    "leads_target": 18,
+    "new_topics": [
+      "CMMC 2.0 Compliance Guide",
+      "8(a) Success Stories",
+      "GSA Schedule vs Federal Prime Contracts",
+      "2026 Federal Contracting Trends"
+    ]
+  }
+}

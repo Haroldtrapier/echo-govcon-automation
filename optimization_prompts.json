@@ -1,0 +1,30 @@
+{
+  "category": "optimization",
+  "count": 3,
+  "prompts": [
+    {
+      "id": "optim_001",
+      "title": "Headline & Copy Testing",
+      "category": "optimization",
+      "use_case": "A/B test headlines and copy",
+      "prompt": "Generate 3 alternative headlines/copy for [ORIGINAL_POST]. For each: (1) Why it's different, (2) What audience segment prefers it, (3) Predicted engagement lift, (4) Test plan, (5) Success criteria.",
+      "output_format": "A/B test recommendations"
+    },
+    {
+      "id": "optim_002",
+      "title": "Best Time to Post Analysis",
+      "category": "optimization",
+      "use_case": "Optimize posting schedule",
+      "prompt": "Analyze optimal posting times for [COMPANY]. Data: [HISTORICAL_POSTS]. Recommend: (1) Best day/time per platform, (2) Frequency, (3) Content type per time, (4) Seasonal adjustments, (5) Why these times work.",
+      "output_format": "Posting calendar with rationale"
+    },
+    {
+      "id": "optim_003",
+      "title": "Platform-Specific Optimization",
+      "category": "optimization",
+      "use_case": "Tailor content for platform-specific algorithms",
+      "prompt": "Optimize [POST] for [PLATFORM] algorithm. Current: [CURRENT_PERFORMANCE]. Recommend: (1) Format change, (2) Hashtag strategy, (3) CTA adjustment, (4) Media recommendations, (5) Engagement tactics.",
+      "output_format": "Platform-specific optimization guide"
+    }
+  ]
+}

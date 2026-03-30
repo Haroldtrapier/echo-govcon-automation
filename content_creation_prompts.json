@@ -1,0 +1,118 @@
+{
+  "category": "content_creation",
+  "count": 8,
+  "prompts": [
+    {
+      "id": "content_001",
+      "title": "LinkedIn Post: SDVOSB Advantage",
+      "category": "content_creation",
+      "platform": "linkedin",
+      "character_limit": 3000,
+      "prompt": "Create a compelling LinkedIn post explaining the advantages of SDVOSB certification for government contractors. Include: (1) Direct access to $25B+ in federal set-aside contracts, (2) Competitive advantages in federal bidding, (3) Real business growth impact. Write in professional but engaging tone. Include relevant hashtags.",
+      "use_cases": [
+        "Business development",
+        "Lead generation",
+        "Thought leadership"
+      ],
+      "example_output": "\ud83d\udce2 Did you know? \ud83c\udfaf SDVOSB certification unlocks direct access to $25B+ in federal set-asides. Here's what that means for your bottom line..."
+    },
+    {
+      "id": "content_002",
+      "title": "Twitter Thread: GovCon Tips",
+      "category": "content_creation",
+      "platform": "twitter",
+      "character_limit": "280 per tweet",
+      "prompt": "Create a 5-tweet thread with actionable government contracting tips. Each tweet should: (1) Start with a number or emoji, (2) Deliver one clear tip, (3) Be under 280 characters, (4) End with a hook to read the next tweet.",
+      "use_cases": [
+        "Education",
+        "Audience engagement",
+        "Viral potential"
+      ],
+      "example_output": "\ud83e\uddf5 5 GovCon Tactics Government Contractors Don't Know About:\n\n1\ufe0f\u20e3 The 8(a) Program..."
+    },
+    {
+      "id": "content_003",
+      "title": "Email Newsletter: Monthly Market Update",
+      "category": "content_creation",
+      "platform": "email",
+      "character_limit": 2000,
+      "prompt": "Write an engaging monthly email newsletter for government contractors. Include: (1) Top 3 market opportunities this month, (2) Upcoming contract deadlines, (3) Quick tip section, (4) Call-to-action. Keep it scannable with bullet points.",
+      "use_cases": [
+        "Lead nurturing",
+        "Thought leadership",
+        "Community building"
+      ],
+      "example_output": "Subject: 3 New GovCon Opportunities This Month + Market Trends\n\nHi [Name],..."
+    },
+    {
+      "id": "content_004",
+      "title": "LinkedIn Article: Deep Dive Guide",
+      "category": "content_creation",
+      "platform": "linkedin",
+      "character_limit": 8000,
+      "prompt": "Write a comprehensive LinkedIn Article (1500+ words) about a government contracting topic. Include: (1) Current market context, (2) Step-by-step guidance, (3) Real examples, (4) Resources, (5) Action items. Make it authoritative and practical.",
+      "use_cases": [
+        "SEO",
+        "Thought leadership",
+        "Lead generation"
+      ],
+      "example_output": "The Complete Guide to CMMC Compliance: What Government Contractors Need to Know in 2026..."
+    },
+    {
+      "id": "content_005",
+      "title": "Case Study: Success Story",
+      "category": "content_creation",
+      "platform": "linkedin",
+      "character_limit": 4000,
+      "prompt": "Write a compelling case study showing how a contractor won a federal contract. Include: (1) Challenge faced, (2) Your solution, (3) Results with numbers, (4) Key lessons, (5) Specific tactic that worked.",
+      "use_cases": [
+        "Social proof",
+        "Lead generation",
+        "Differentiation"
+      ],
+      "example_output": "How We Grew from 0-$2M in Federal Contracts in 12 Months: What We Learned..."
+    },
+    {
+      "id": "content_006",
+      "title": "Industry News Commentary",
+      "category": "content_creation",
+      "platform": "linkedin",
+      "character_limit": 1500,
+      "prompt": "Write a post commenting on recent government contracting news. Include: (1) What happened, (2) Why it matters, (3) Impact on contractors, (4) How to prepare/capitalize. Keep opinion balanced but clear.",
+      "use_cases": [
+        "Timeliness",
+        "Thought leadership",
+        "Engagement"
+      ],
+      "example_output": "The new CMMC 2.0 requirements just dropped, and here's what contractors need to know..."
+    },
+    {
+      "id": "content_007",
+      "title": "How-To Content: Quick Tip",
+      "category": "content_creation",
+      "platform": "twitter",
+      "character_limit": 280,
+      "prompt": "Write a single, actionable 'how-to' post on a government contracting process. Format: 'How to [specific task]' + one clear step + benefit. Make it shareable and practical.",
+      "use_cases": [
+        "Education",
+        "Viral potential",
+        "Quick engagement"
+      ],
+      "example_output": "How to respond to a GSA Schedule RFQ in 3 hours: Focus on these 3 pages of the IFB first..."
+    },
+    {
+      "id": "content_008",
+      "title": "Event Announcement: Webinar/Roundtable",
+      "category": "content_creation",
+      "platform": "linkedin",
+      "character_limit": 2000,
+      "prompt": "Write an announcement for a webinar or roundtable discussion. Include: (1) Catchy hook, (2) Problem you're solving, (3) Speaker credentials, (4) Key topics covered, (5) Clear registration link or CTA.",
+      "use_cases": [
+        "Lead generation",
+        "Community building",
+        "Authority"
+      ],
+      "example_output": "LIVE WEBINAR: 5 Government Contractors Share How They Won $5M+ in Federal Contracts..."
+    }
+  ]
+}

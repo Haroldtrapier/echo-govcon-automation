@@ -1,0 +1,46 @@
+{
+  "category": "strategy",
+  "count": 5,
+  "prompts": [
+    {
+      "id": "strategy_001",
+      "title": "Quarterly Strategy Plan",
+      "category": "strategy",
+      "use_case": "Plan content strategy for next quarter",
+      "prompt": "Create a Q[X] content strategy for [COMPANY]. Goals: [GOALS]. Audience: [AUDIENCE]. Current strengths: [STRENGTHS]. Recommend: (1) 3 content pillars, (2) Posting frequency per platform, (3) Content mix (%), (4) Key campaigns, (5) Success metrics.",
+      "output_format": "Strategic plan with monthly breakdown"
+    },
+    {
+      "id": "strategy_002",
+      "title": "Niche Market Positioning",
+      "category": "strategy",
+      "use_case": "Position company in specific market niche",
+      "prompt": "Help position [COMPANY] in [NICHE] market. Current position: [POSITION]. Target audience: [AUDIENCE]. Competitors: [COMPETITORS]. Recommend: (1) Unique angle, (2) Message framework, (3) Content topics that own this niche, (4) Differentiation tactics.",
+      "output_format": "Positioning strategy with messaging framework"
+    },
+    {
+      "id": "strategy_003",
+      "title": "Customer Acquisition Funnel",
+      "category": "strategy",
+      "use_case": "Build awareness-to-customer journey",
+      "prompt": "Design customer acquisition funnel for [COMPANY]. Stage: [AWARENESS/CONSIDERATION/DECISION]. Recommend: (1) Content strategy per stage, (2) Platform focus, (3) CTAs, (4) Nurture sequence, (5) Conversion tactics.",
+      "output_format": "Funnel stages with content recommendations"
+    },
+    {
+      "id": "strategy_004",
+      "title": "Crisis Communication Plan",
+      "category": "strategy",
+      "use_case": "Prepare for negative publicity or crisis",
+      "prompt": "Create crisis communication plan for [COMPANY] in [SCENARIO]. Prepare: (1) Holding statement, (2) Key messages, (3) Q&A responses, (4) Post schedule adjustment, (5) Community engagement approach.",
+      "output_format": "Crisis response playbook"
+    },
+    {
+      "id": "strategy_005",
+      "title": "Partnership & Collaboration Strategy",
+      "category": "strategy",
+      "use_case": "Expand reach through strategic partnerships",
+      "prompt": "Identify partnership opportunities for [COMPANY]. Target audience: [AUDIENCE]. Recommend: (1) 5 ideal partnership types, (2) How to approach, (3) Content collaboration ideas, (4) Cross-promotion tactics, (5) Measurement approach.",
+      "output_format": "Partnership strategy with prospect list"
+    }
+  ]
+}
